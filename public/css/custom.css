@@ -1,0 +1,512 @@
+body {
+    background-color: #141416;
+    color: #F8F9FA !important;
+}
+
+.jumbotron {
+    width: 100%;
+    background: url('../img/dotsdark.png'), url('../img/rogueencampment.jpg');
+    border-radius: 0 !important;
+    position: relative;
+    z-index: 1;
+}
+
+.vertical-center  {
+    min-height: 86%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 86vh;
+    display: flex;
+    align-items: center;
+}
+
+.borderx-darker {
+    border-top: 1px solid #111;
+    border-bottom: 2px solid #111;
+}
+
+.borderx-lighter {
+    border-top: 1px solid #52546b;
+    border-bottom: 1px solid #52546b;
+}
+
+.one-edge-shadow  {
+    box-shadow: 0 25px 100px 0px #52546b;
+}
+
+.bg-trandark {
+    background: rgba(51,52,66, 0.8);
+}
+
+.bg-metadark {
+    background-color: #333442;
+}
+
+.main-navigation ul li  {
+    border-right: 1px solid #52546b;
+}
+
+.main-navigation ul li:last-of-type  {
+    border-right: none;
+}
+
+.main-navigation ul ul li  {
+    border-right: none;
+}
+
+.main-navigation .nav-item {
+    padding: .25em;
+}
+
+.main-navigation .nav-link i {
+    padding-right: 5px;
+}
+
+.nav-item {
+    font-size: 90%;
+}
+
+.dropdown-menu {
+    background-color: #333442;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color:#52546b;
+    color: rgba(255,255,255,.5);
+}
+
+.dropdown-item {
+    color: rgba(255,255,255,.5);
+    font-size: 90%;
+}
+
+.solid-row {
+    border-top: 2px double #111;
+    border-bottom: 1px solid #52546b;
+    background-color: #141416;
+    color: #F8F9FA;
+    min-height: 30%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 30vh;
+}
+
+.icon-outline {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.plax-guild-learn {
+    background: url('../img/dotsdark.png'), url('../img/a4town.jpg') no-repeat center center fixed;
+    border-radius: 0 !important;
+    position: relative;
+    z-index: 1;
+    
+    color: #F8F9FA;
+    min-height: 15%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 15vh;
+    border-bottom: 1px solid #52546b;
+}
+
+.solid-row-large {
+    border-top: 1px solid #52546b;
+    background-color: #18191D;
+    color: #F8F9FA;
+    min-height: 86%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 86vh;
+    display: flex;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider  {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading  {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.featurette-heading  {
+    font-size: 50px;
+}
+
+/* responsive */
+@media (min-width: 62em)  {
+    .featurette-heading  {
+        margin-top: 7rem;
+    }
+
+    .marketing .col-lg-4  {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .marketing h2  {
+        font-weight: 400;
+    }
+
+    .marketing .col-lg-4 p  {
+        margin-right: .75rem;
+        margin-left: .75rem;
+    }
+
+}
+.solid-row-top-guild {
+    border-top: 1px solid #52546b;
+    color: #F8F9FA;
+    min-height: 86%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 86vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    background-color: #141416;
+}
+
+.chat-gem {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.important-glow {
+    background:#111;
+    color:#fff;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.breadcrumb {
+    background-color: #300000 !important;
+}
+
+.first-layer {
+    background: linear-gradient(0deg, rgba(82,84,107,1) 0%, rgb(52, 52, 56) 100%) !important;
+    border-bottom: 1px solid #52546b;
+}
+
+
+
+.card-header {
+    background: rgba(20,20,22, 0.8);
+    box-shadow: 0 5px 30px 0px #17171A;
+    border-bottom: 1px solid rgba(82,84,107,.125) !important;
+}
+
+.card-body {
+    background: rgba(82,84,107,.125);
+    /*background: linear-gradient(270deg, rgb(20,20,22) 0%, rgb(56, 57, 73) 100%) !important;*/
+    /*background: url('../img/dotsdark.png'), url('../img/Untitled-2.jpg') no-repeat center center fixed;*/
+}
+
+.list-group-item {
+    background-color:transparent !important;
+}
+
+.border-set-color {
+    border-color: #fffafa !important;
+}
+
+.card {
+    background-color: transparent !important;
+    /**border: 1px solid rgba(153, 146, 83, 0.55) !important;*/
+}
+
+#wrapper  {
+    flex: 1;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #52546b;
+}
+
+.foothead {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+/*
+to make text blockier.
+*/
+.footlogo {
+    display: block;
+}
+.footwrap{
+    border-top: 1px solid #52546b;
+}
+.list-unstyled>li {
+    font-size: small;
+    text-transform: uppercase;
+    padding: 0.25rem !important;
+}
+
+/*
+.logos {
+    width: 150px;
+    height: 90px;
+    display:inline-block;
+    background: url('../img/blizzlogosprite.png') no-repeat left top;
+}
+.logos:hover {
+    display:inline-block;
+    background-position: -150px 0px;
+}*/
+.logos {
+    background: url('../img/logo-blizz-dev-hover.png') no-repeat left top;
+    width: 150px;
+    height: 90px;
+    opacity: 0.5;    
+}
+
+.logos:hover {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.btn-accent{
+    color: #212529;
+    background-color: #f1e24c;
+    border-color: #f1e24c;
+}
+.btn-accent:hover{
+    color: #212529;
+    background-color: #D8C933;
+    border-color: #D8C933;
+}
+.bg-accent{
+    background-color: #f1e24c;
+}
+.accent-color{
+    color: #f1e24c;
+}
+.accent-color-invert{
+    color: #f8f9fa;
+}
+.topThreadBorder{
+    border-color: #f1e24c !important;
+}
+.topThreadBorder:hover{
+    border-color: #D8C933 !important;
+    }
+/*
+* Character builder css
+
+ */
+ .class-fade {
+    /*background: rgb(14,10,7) !important;*/
+    background: linear-gradient(0deg, rgba(14,10,7,1) 0%, rgba(97,0,0,1) 100%) !important;
+}
+
+.class-border {
+    border-color: #400302 !important;
+}
+
+.amazon-bg {
+    background: rgba(0, 0, 0, 1) url('../img/class/amazon-bg.jpg');
+    background-position: center center;
+}
+
+.assassin-bg {
+    background: rgba(0, 0, 0, 1) url('../img/class/assassin-bg.jpg');
+    background-position: center center;
+}
+
+.barbarian-bg {
+    background: rgba(0, 0, 0, 1) url('../img/class/barbarian-bg.jpg');
+    background-position: center center;
+}
+
+.druid-bg {
+    background: rgba(0, 0, 0, 1) url('../img/class/druid-bg.jpg');
+    background-position: center center;
+}
+
+.necromancer-bg {
+    background: rgba(0, 0, 0, 1) url('../img/class/necromancer-bg.jpg');
+    background-position: center center;
+}
+
+.paladin-bg  {
+    background: rgba(0, 0, 0, 1) url('../img/class/paladin-bg.jpg');
+    background-position: center center;
+}
+
+.sorceress-bg  {
+    background: rgba(0, 0, 0, 1) url('../img/class/sorceress-bg.jpg');
+    background-position: center center;
+}
+
+.class-box>a  {
+    color:white;
+    font-weight: bold;
+}
+
+.plus-sign {
+    color: #00c400;
+}
+
+.inventory-container {
+    position:relative;
+    height:252px;
+}
+
+.lHand_main  {
+    position: absolute;
+    top: 85px;
+    left: 48px;
+}
+
+.rHand_main  {
+    position: absolute;
+    top: 85px;
+    left: 279px;
+}
+
+.armor  {
+    position: absolute;
+    top: 95px;
+    left: 162px;
+}
+
+.armor:hover  {
+    background-color: green;
+}
+
+.helmet  {
+    position: absolute;
+    top: 15px;
+    left: 162px;
+}
+
+.gloves  {
+    position: absolute;
+    top: 185px;
+    left: 48px;
+}
+
+.boots  {
+    position: absolute;
+    top: 185px;
+    left: 279px;
+}
+
+.belt  {
+    position: absolute;
+    top: 177px;
+    left: 169px;
+}
+
+.lRing  {
+    position: absolute;
+    top: 179px;
+    left: 113px;
+}
+
+.rRing  {
+    position: absolute;
+    top: 179px;
+    left: 226px;
+}
+
+.amulet  {
+    position: absolute;
+    top: 34px;
+    left: 226px;
+}
+
+.weapons-dropdown
+ {
+    height: 500px;
+    overflow: auto;
+}
+
+.popover-header  {
+   color: #908858 !important;
+}
+
+.magic-property {
+    color: #4850B8 !important;
+}
+
+.normal-text {
+    color: #afafaf !important;
+}
+
+.unique-text {
+    color: #908858 !important;
+}
+
+.img-tooltip  {
+    position: absolute;
+}
+
+#img-tooltip + .tooltip  {
+    pointer-events: none;
+ }
+
+.hr-glow  {
+    box-shadow: 0 0px 30px 0px #17171A;
+}
+
+.incline-line  {
+    width: 25%;
+    margin: auto;
+    border-color: #ffed4a;
+}
+dd, dl{
+    margin-bottom: 0 !important;
+}
+.post-body{
+    min-height: 20vh;
+}
+  
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+
+  .footer-links .footer-link {
+    display:inline-block;
+    font-size:15px;
+    white-space:nowrap
+   }
+
+  .footer-links .footer-link:nth-child(n+2):before {
+    content:'';
+    display:inline-block;
+    height:12px;
+    width:1px;
+    background-color:rgba(255,255,255,0.3);
+    margin:0 0.6rem;
+    pointer-events:none;
+   }
+
+   .footer-links-small .footer-link-small {
+    display:inline-block;
+    font-size:12px;
+    white-space:nowrap
+   }
+
+  .footer-links-small .footer-link-small:nth-child(n+2):before {
+    content:'';
+    display:inline-block;
+    height:10px;
+    width:1px;
+    background-color:rgba(255,255,255,0.3);
+    margin:0 0.5rem;
+    pointer-events:none;
+   }
